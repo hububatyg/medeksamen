@@ -1,0 +1,1 @@
+import{a as e}from"./storage.BrM-Ef5K.js";var t=document.querySelector(`.reset-all`);t.addEventListener(`click`,()=>{confirm(`Nulstil alt fremskridt? Alle dine svar og markeringer i alle eksamenssæt og EKG-quizzer slettes.`)&&(e(),t.textContent=`Fremskridt nulstillet ✓`,t.disabled=!0)});

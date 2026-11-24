@@ -1,0 +1,1 @@
+import{i as e}from"./storage.BrM-Ef5K.js";document.querySelectorAll(`[data-progress]`).forEach(t=>{let n=e(t.dataset.progress).size;if(!n)return;let r=Number(t.dataset.total);t.textContent=`✓ ${n}/${r}`,t.classList.add(n>=r?`complete`:`started`)});

@@ -1,0 +1,1 @@
+import{o as e,t}from"./storage.BrM-Ef5K.js";var n=document.querySelector(`.cookie-banner`);n.hidden=t()!==null,n.addEventListener(`click`,t=>{let r=t.target.dataset.consent;(r===`ja`||r===`nej`)&&(e(r),n.hidden=!0)}),document.querySelectorAll(`[data-cookie-settings]`).forEach(e=>e.addEventListener(`click`,()=>n.hidden=!1));
